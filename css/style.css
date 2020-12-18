@@ -211,7 +211,7 @@ button {
 
 .full {
 	float: left;
-	width: 100px;
+	width: 80%;
 }
 
 .layout_padding {
@@ -1648,15 +1648,15 @@ input[type="radio"] .styled:checked+label::after {
 
 .header {
 	background: #0fc690;
-	padding: 40px 0px;
-	padding-bottom: 35px;
+	padding: 20px 0px;
+	padding-bottom: 15px;
 }
 
 .logo a {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #fff;
+	color: #190714;
 	line-height: 40px;
 }
 
@@ -2178,7 +2178,7 @@ img.zoom {
 
 .footer {
 	background: #023023;
-	padding-top: 25px;
+	padding-top: 15px;
 }
 
 .footer .address h3 {
@@ -2270,7 +2270,7 @@ ul.contant_icon li img {
 
 .footer .address .form-control {
 	padding: 10px 15px;
-	border: #ddd solid 1px;
+	border: white solid 4px;
 	margin-bottom: 20px;
 	box-shadow: inherit;
 }
@@ -2284,7 +2284,7 @@ ul.contant_icon li img {
 	padding: 5px 29px;
 	border: #0fc690 solid 1px;
 	background: #0fc690;
-	color: #fff;
+	color: white;
 	font-weight: 500;
 	font-size: 20px;
 }
