@@ -27,22 +27,22 @@
     }
     .menu-area-main {
         height: 256px;
-        overflow-y: auto;
+        overflow-y: scroll;
     }
     .megamenu>.row [class*="col-"] {
         padding: 0px;
     }
     .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
+        padding: 0px 10px;
     }
     .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
+        padding: 0px 10px;
     }
     .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
+        padding: 0px 10px;
     }
     .mean-container .mean-nav ul li a.mean-expand {
-        height: 19px;
+        height: 10px;
     }
     .category-box.women-box {
         display: none;

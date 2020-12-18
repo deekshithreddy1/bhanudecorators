@@ -54,11 +54,11 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                             <li class="active"> <a href="index.html">Home</a> </li>
+                             <li> <a href="index.html">Home</a> </li>
                               <li> <a href="about.html">About</a> </li>
-                              <li> <a href="services.html"> Service</a> </li>
+                              <li class="active"> <a href="services.html"> Service</a> </li>
                               <li> <a href="#download">Gallery</a> </li>
-                              <li> <a href="#testimonial">Contact us</a> </li>
+                              <li> <a href="Contact.html">Contact us</a> </li>
                            </ul>
                         </nav>
                      </div>
@@ -106,7 +106,7 @@ body {
 
 .column {
   float: left;
-  width: 25%;
+  width: 30%;
 }
 
 /* The Modal (background) */
@@ -227,23 +227,40 @@ img.hover-shadow {
 </style>
 <body>
 
-<h2 style="text-align:center">decoration theams</h2>
+<h1 style="text-align:center">Decoration Theams</h1>
 
 <div class="row">
   <div class="column">
-    <img src="images/A7.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="images/A7.jpg" style="width:110%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="images/A8.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="images/A8.jpg" style="width:110%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="images/A9.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="images/A9.jpg" style="width:110%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+<br>
+  <div class="column">
+    <img src="images/A6.jpg" style="width:110%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="images/A6.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="images/A13.jpg" style="width:105%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
   </div>
+
    <div class="column">
-    <img src="images/A13.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="images/A7.jpg" style="width:110%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/A8.jpg" style="width:110%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/A9.jpg" style="width:110%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/A6.jpg" style="width:110%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/A13.jpg" style="width:110%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
   </div>
 
 </div>
@@ -253,52 +270,65 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 5</div>
-      <img src="images/A7.jpg" style="width:100%">
+      <div class="numbertext">1 / 10</div>
+      <img src="images/A7.jpg" style="width:95%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 5</div>
-      <img src="images/A8.jpg" style="width:100%">
+      <div class="numbertext">2 / 10</div>
+      <img src="images/A8.jpg" style="width:95%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 5</div>
+      <div class="numbertext">3 / 10</div>
+      <img src="images/A9.jpg" style="width:95%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 10</div>
+      <img src="images/A6.jpg" style="width:95%">
+    </div>
+
+      <div class="mySlides">
+      <div class="numbertext">5/ 10</div>
+      <img src="images/A13.jpg" style="width:95%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 10</div>
+      <img src="images/A7.jpg" style="width:95%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7/ 10</div>
+      <img src="images/A8.jpg" style="width:95%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 10</div>
       <img src="images/A9.jpg" style="width:100%">
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">4 / 5</div>
-      <img src="images/A6.jpg" style="width:100%">
+      <div class="numbertext">9 / 10</div>
+      <img src="images/A6.jpg" style="width:95%">
     </div>
 
       <div class="mySlides">
-      <div class="numbertext">5/ 5</div>
-      <img src="images/A13.jpg" style="width:100%">
+      <div class="numbertext">10/ 10</div>
+      <img src="images/A13.jpg" style="width:95%">
     </div>
-    
+   
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     <div class="caption-container">
       <p id="caption"></p>
     </div>
-
-
-   <!--  <div class="column">
-      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-  </div> -->
 </div>
+</div>
+
+  <br>
 
 <script>
 function openModal() {
@@ -340,195 +370,10 @@ function showSlides(n) {
 </script>
     
 
-        <!--  <div class="container margin-r-l">
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/home/01.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/home/01.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Contact</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Contact</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/1.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Food</a>
-                        </span>  
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/2.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/2.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/1.jpg" class="fancybox" rel="ligthbox">Fashion</a>
-                        </span>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/3.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/3.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/3.jpg" class="fancybox" rel="ligthbox">Booking</a>
-                        </span>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/4.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/4.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/4.jpg" class="fancybox" rel="ligthbox">Marketing</a>
-                        </span> 
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/5.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/5.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/5.jpg" class="fancybox" rel="ligthbox">Design</a>
-                        </span> 
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="service-box">
-                     <figure>
-                        <a href="images/6.jpg" class="fancybox" rel="ligthbox">
-                        <img  src="images/6.jpg" class="zoom img-fluid "  alt="">
-                        </a>
-                        <span class="hoverle">
-                        <a href="images/6.jpg" class="fancybox" rel="ligthbox">Making Food</a>
-                        </span>
-                     </figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- end service -->
+        
      
-     
-      <!--  footer --> 
+       <!--  footer --> 
+
       <footr>
          <div class="footer">
             <div class="container">
@@ -537,6 +382,12 @@ function showSlides(n) {
                      <div class="address">
                         <h3>Address</h3>
                         <i><img src="icon/3.png">Locations</i>
+                        <h3>
+                        <p>3-7-103,Indira Nagar
+                               <br>
+                                Ramanthapur,Hyderabad-13,Telangana</b>
+                        </p>
+                        </h3>
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-6 col-sm-12 width">
@@ -546,27 +397,49 @@ function showSlides(n) {
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-6 col-sm-12 width">
-                     <div class="address">
-                        <h3>Useful Linkes</h3>
-                        <i><img src="icon/1.png">Locations</i>
+                        <div class="address">
+                       <h3>Useful Linkes</h3>
+                        <h3><i><img src="icon/1.png">  </i>
+                        <i> <a href = "index.html">Home</a>
+                         <br>
+                          <a href = "about.html">About Us</a>
+                          <br>
+                           <a href = "services.html">Services</a>
+                           <br>
+                            <a href = "gallery.html">Gallery</a>
+                            <br>
+                            <a href = "Contact.html">Contact Us</a></i>
+                     
                      </div>
                   </div>
                   <div class="col-lg-2 col-md-6 col-sm-12 width">
                      <div class="address">
                         <h3>Social Media </h3>
                         <ul class="contant_icon">
-                           <li><img src="icon/fb.png" alt="icon"/></li>
+                           <li><img src="icon/fb.png" alt="icon"/>
+                              <a href="facebook.com"></a></li>
                            <li><img src="icon/tw.png" alt="icon"/></li>
                            <li><img src="icon/lin (2).png" alt="icon"/></li>
                            <li><img src="icon/instagram.png" alt="icon"/></li>
                         </ul>
                      </div>
                   </div>
-                  
+
+                   <div class="col-lg-2 col-md-6 col-sm-12 width">
+                     <div class="address" >
+                        <h3>Contact Us</h3>
+                        <i><img src="icon/whatsapp.png"></i>
+                        <br>
+                      
+                    <H3><a href="tel:9666095891">9666095891</a>
+                     </div>
+                  </div>
+
+
                </div>
             </div>
             <div class="copyright">
-               <p>Copyright 2019 All Right Reserved By <a href="#">Banu Decorations</a></p>
+               <p>Copyright 2020 All Right Reserved By <a href="#">BanuDecoratations</a></p>
             </div>
          </div>
       </footr>

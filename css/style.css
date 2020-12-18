@@ -211,7 +211,7 @@ button {
 
 .full {
 	float: left;
-	width: 100%;
+	width: 100px;
 }
 
 .layout_padding {
@@ -500,7 +500,7 @@ nav.main-menu {
 	font-size: 17px;
 	font-weight: 400;
 	color: #fff;
-	margin-right: 30px;
+	margin-right: 10px;
 }
 
 .right_cart_section ul.cart_update li {
@@ -1071,7 +1071,7 @@ nav.main-menu {
 	font-size: 15px;
 	text-transform: capitalize;
 	font-weight: 300;
-	padding: 12px 5px;
+	padding: 12px 2px;
 	position: relative;
 	border-bottom: solid #eee 1px;
 }
@@ -1136,7 +1136,7 @@ nav.main-menu {
 .mean-container .mean-nav {
 	margin-top: 0px;
 	position: absolute;
-	top: 100%;
+	top: 50%
 }
 
 .main-menu ul>li {
@@ -1381,8 +1381,8 @@ nav.main-menu {
 
 .heroslider .container {
 	position: relative;
-	height: 100%;
-	padding-left: 0;
+	height: 50%;
+	padding-left: 3%;
 	padding-right: 0;
 	z-index: 5;
 }
@@ -2173,16 +2173,16 @@ img.zoom {
 }
 
 .width {
-	width: 25%;
+	width: 20%;
 }
 
 .footer {
 	background: #023023;
-	padding-top: 55px;
+	padding-top: 25px;
 }
 
 .footer .address h3 {
-	color: #fff;
+	color: white;
 	font-size: 25px;
 	line-height: 35px;
 	font-weight: 500;
@@ -2190,9 +2190,9 @@ img.zoom {
 }
 
 .footer .address i {
-	color: #fff;
-	font-size: 15px;
-	font-weight: 500;
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
 }
 
 .footer .address i img {
